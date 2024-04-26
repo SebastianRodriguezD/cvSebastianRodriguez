@@ -24,21 +24,6 @@ sectionContacto.appendChild(pCorreo)
 const Ulcontacto = document.createElement('ul')
 Ulcontacto.classList.add('ul-contacto')
 Ulcontacto.innerHTML =
-  "<li><a href='https://www.linkedin.com/in/sebastian-rodriguez-d-042a41170/' target='_blank'><img   src='./accests/imgSR/linkedin.png' alt='' id='linkedin'/></a></li>    <li><a href='https://www.instagram.com/yosoysr/' target='_blank'><img   src='./accests/imgSR/instagram.png' alt='' id='Igram'/></a></li>    <li><a href=https://wa.me/34677090511?text=Hola,%20estoy%20interesado%20en%20tu%20servicio target='_blank'><img   src='./accests/imgSR/whatsapp.png' alt='' id='Wsp'/></a></li><li><a href='https://github.com/SebastianRodriguezD' target='_blank'><img   src='./accests/imgSR/github.png' alt='' id='GitHub'/></a></li>"
+  "<li><a href='https://www.linkedin.com/in/sebastian-rodriguez-d-042a41170/' target='_blank'><img   src= 'https://res.cloudinary.com/dpqksttwy/image/upload/v1714156627/CV/linkedin_vjac8k.png' alt='' id='linkedin'/></a></li>    <li><a href='https://www.instagram.com/yosoysr/' target='_blank'><img   src='https://res.cloudinary.com/dpqksttwy/image/upload/v1714156627/CV/instagram_ti51je.png' alt='' id='Igram'/></a></li>    <li><a href=https://wa.me/34677090511?text=Hola,%20estoy%20interesado%20en%20tu%20servicio target='_blank'><img   src='https://res.cloudinary.com/dpqksttwy/image/upload/v1714156628/CV/whatsapp_twlweu.png'alt='' id='Wsp'/></a></li><li><a href='https://github.com/SebastianRodriguezD' target='_blank'><img   src='https://res.cloudinary.com/dpqksttwy/image/upload/v1713875090/CV/github_n65l4o.png' alt='' id='GitHub'/></a></li>"
 
-const rutalinkedin = './accests/imgSR/linkedin.png'
-const linkedin = document.getElementById('linkedin')
-linkedin.src = rutalinkedin
-
-const rutaInstagram = './accests/imgSR/instagram.png'
-const Igram = document.getElementById('Igram')
-Igram.src = rutaInstagram
-
-const rutaWsp = './accests/imgSR/whatsapp.png'
-const Wsp = document.getElementById('Wsp')
-Wsp.src = rutaWsp
-
-const rutagithub = './accests/imgSR/github.png'
-const github = document.getElementById('GitHub')
-github.src = rutagithub
 sectionContacto.appendChild(Ulcontacto)
