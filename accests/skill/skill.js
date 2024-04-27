@@ -50,7 +50,7 @@ const pintarSkills = (habilidades) => {
   sectionSkills.innerHTML = ''
   const pSkill = document.createElement('p')
   pSkill.classList.add('p-skill')
-  pSkill.innerText = 'SKILLIS'
+  pSkill.innerText = 'SKILLS'
   sectionSkills.appendChild(pSkill)
 
   const divSkill = document.createElement('div')
