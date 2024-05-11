@@ -22,6 +22,12 @@ const proyects = [
     a: 'https://portafolio-sr-flex.netlify.app/',
     image:
       'https://res.cloudinary.com/dpqksttwy/image/upload/v1713985940/CV/Captura_de_pantalla_2024-04-24_211115_orzqjp.png'
+  },
+  {
+    name: 'Games Hub',
+    a: 'https://portafolio-sr-flex.netlify.app/',
+    image:
+      'https://res.cloudinary.com/dpqksttwy/image/upload/v1715418175/CV/Captura_de_pantalla_2024-05-11_110225_tkhyyi.png'
   }
 ]
 
