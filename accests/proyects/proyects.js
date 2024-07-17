@@ -25,9 +25,20 @@ const proyects = [
   },
   {
     name: 'Games Hub',
-    a: 'https://portafolio-sr-flex.netlify.app/',
+    a: 'https://gameshubsr.netlify.app/',
     image:
       'https://res.cloudinary.com/dpqksttwy/image/upload/v1715418175/CV/Captura_de_pantalla_2024-05-11_110225_tkhyyi.png'
+  },
+  {
+    name: 'Api Rest - Backend',
+    a: 'https://gameshubsr.netlify.app/',
+    image: 'https://github.com/SebastianRodriguezD/proyecto6Backend'
+  },
+  {
+    name: 'Api Rest Auth - Backend',
+    a: 'https://github.com/SebastianRodriguezD/proyecto7backend',
+    image:
+      'https://res.cloudinary.com/dpqksttwy/image/upload/v1721236064/CV/Captura_de_pantalla_2024-07-17_190604_bvtepb.png'
   }
 ]
 
@@ -74,4 +85,4 @@ const pintarSkills = (proyectos) => {
   }
 }
 
-pintarSkills(proyects)
+pintarSkills(proyects.reverse())
