@@ -1,38 +1,53 @@
 const skill = [
   {
     name: 'HTML5',
-    porcentaje: '80 %',
-    estrellas: 4,
     image:
       'https://res.cloudinary.com/dpqksttwy/image/upload/v1713875051/CV/html-5_1_hqjmso.png'
   },
   {
     name: 'CSS',
-    porcentaje: '70 %',
-    estrellas: 3,
     image:
       'https://res.cloudinary.com/dpqksttwy/image/upload/v1713875049/CV/css-3_njctf8.png'
   },
   {
     name: 'JavaScript',
-    porcentaje: '60 %',
-    estrellas: 3,
     image:
       'https://res.cloudinary.com/dpqksttwy/image/upload/v1713875052/CV/4373213_js_logo_logos_icon_zf8nu2.png'
   },
   {
     name: 'VsCODE',
-    porcentaje: '80 %',
-    estrellas: 4,
     image:
       'https://res.cloudinary.com/dpqksttwy/image/upload/v1713875048/CV/visual-basico_ozgyxe.png'
   },
   {
     name: 'Git Hub',
-    porcentaje: '80 %',
-    estrellas: 4,
     image:
       'https://res.cloudinary.com/dpqksttwy/image/upload/v1713875090/CV/github_n65l4o.png'
+  },
+  {
+    name: 'Vite',
+    image:
+      'https://res.cloudinary.com/dpqksttwy/image/upload/v1721246938/CV/logo-with-shadow_kigbmk.png'
+  },
+  {
+    name: 'Figma',
+    image:
+      'https://res.cloudinary.com/dpqksttwy/image/upload/v1721246757/CV/figma-1-logo-png-transparent_v0w7tt.png'
+  },
+  {
+    name: 'Node Js',
+    image:
+      'https://res.cloudinary.com/dpqksttwy/image/upload/v1721246577/CV/node-js-seeklogo-1_fmeqfe.png'
+  },
+  {
+    name: 'Express Js',
+    image:
+      'https://res.cloudinary.com/dpqksttwy/image/upload/v1721246576/CV/express-js_wuilzc.png'
+  },
+  {
+    name: 'Mongo DB',
+    image:
+      'https://res.cloudinary.com/dpqksttwy/image/upload/v1721246576/CV/MongoDB-Logo_d87tqe.png'
   }
 ]
 
@@ -84,8 +99,7 @@ const pintarSkills = (habilidades) => {
     articleHab.appendChild(divImg)
     divImg.appendChild(img)
     articleHab.appendChild(nombre)
-    articleHab.appendChild(porcentaje)
-    articleHab.appendChild(divEstrellas)
+
     sectionSkills.appendChild(articleHab)
     divSkill.appendChild(articleHab)
   }

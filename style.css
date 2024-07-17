@@ -160,7 +160,9 @@ article > h3 {
 #divImgHero > img:hover {
   transform: scale(1.1);
 }
-
+.button-cv {
+  transform: scale(1.1);
+}
 #imgSR {
   max-width: 400px;
   max-height: 400px;
@@ -242,7 +244,7 @@ article > p {
 }
 
 .img_sobre_mi > img:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 .descripcion {
   margin: var(--cv-margin-m);
@@ -292,6 +294,7 @@ article > p {
   gap: var(--cv-gap-xs);
   flex-direction: column;
   flex-wrap: wrap;
+  filter: drop-shadow(1px -2px 5px hsl(26, 100%, 50%));
 }
 .skill-container > p {
   font-size: 20px;
