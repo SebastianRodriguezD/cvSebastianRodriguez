@@ -40,6 +40,12 @@ const proyects = [
     a: 'https://github.com/SebastianRodriguezD/proyecto7backend',
     image:
       'https://res.cloudinary.com/dpqksttwy/image/upload/v1721236637/CV/Captura_de_pantalla_2024-07-17_191533_lckgh7.png'
+  },
+  {
+    name: 'Backend to Frontend',
+    a: 'https://epoca-fest.netlify.app/',
+    image:
+      'https://res.cloudinary.com/dpqksttwy/image/upload/v1729790248/CV/Captura_de_pantalla_2024-10-24_191623_lmqtlf.png'
   }
 ]
 

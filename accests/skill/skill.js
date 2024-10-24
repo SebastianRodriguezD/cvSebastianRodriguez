@@ -1,5 +1,15 @@
 const skill = [
   {
+    name: 'React',
+    image:
+      'https://res.cloudinary.com/dpqksttwy/image/upload/v1729790438/CV/1174949_js_react_js_logo_react_react_native_icon_olsz3q.png'
+  },
+  {
+    name: 'JavaScript',
+    image:
+      'https://res.cloudinary.com/dpqksttwy/image/upload/v1713875052/CV/4373213_js_logo_logos_icon_zf8nu2.png'
+  },
+  {
     name: 'HTML5',
     image:
       'https://res.cloudinary.com/dpqksttwy/image/upload/v1713875051/CV/html-5_1_hqjmso.png'
@@ -8,11 +18,6 @@ const skill = [
     name: 'CSS',
     image:
       'https://res.cloudinary.com/dpqksttwy/image/upload/v1713875049/CV/css-3_njctf8.png'
-  },
-  {
-    name: 'JavaScript',
-    image:
-      'https://res.cloudinary.com/dpqksttwy/image/upload/v1713875052/CV/4373213_js_logo_logos_icon_zf8nu2.png'
   },
   {
     name: 'VsCODE',
