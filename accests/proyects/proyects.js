@@ -46,6 +46,18 @@ const proyects = [
     a: 'https://epoca-fest.netlify.app/',
     image:
       'https://res.cloudinary.com/dpqksttwy/image/upload/v1729790809/CV/Captura_de_pantalla_2024-10-24_192604_fnbfxy.png'
+  },
+  {
+    name: 'React - Yu-gi-Oh',
+    a: 'https://yu-gi-oh-react.netlify.app/',
+    image:
+      'https://res.cloudinary.com/dpqksttwy/image/upload/v1737305998/CV/Captura_de_pantalla_2025-01-19_175836_co3k3j.png'
+  },
+  {
+    name: 'React - Casa de Dios',
+    a: 'https://iglesiacasadedioszaragoza.es/',
+    image:
+      'https://res.cloudinary.com/dpqksttwy/image/upload/v1737305999/CV/Captura_de_pantalla_2025-01-19_175408_duamxv.png'
   }
 ]
 
